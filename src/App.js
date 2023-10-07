@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-
+// import {ColorSchemesExample} from './Nav';
+import  NavComponent  from './Nav';
+import SliderComponent from './slider';
+import Footer from './footer';
+import Products from './products';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <NavComponent></NavComponent>
+    <SliderComponent></SliderComponent>
+    <Products></Products>
+    <Footer></Footer>
     </div>
   );
 }

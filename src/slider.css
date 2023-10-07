@@ -1,0 +1,7 @@
+img{
+  height: calc(100vh - 50px);
+  width: 100%;
+}
+nav{
+  margin: 0;
+}
